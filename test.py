@@ -7,6 +7,8 @@ def main():
     fetchdata()
     data = pd.read_csv('train.csv')
     print(data.head())
+    print(data.info())
+    print(data.describe())
 
 
 def fetchdata():
